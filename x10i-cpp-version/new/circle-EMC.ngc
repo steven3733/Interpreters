@@ -1,0 +1,22 @@
+(Filename: circle-EMC.ngc)
+(Post processor: EMC.scpost)
+(Date: 09/19/2014)
+G21 (Units: Metric)
+G40 G90
+F1
+(Part: circle)
+(Operation: Inside Offset, white, T1: Mill/router, 1 mm diameter, 1 mm Deep)
+M6 T1  (Mill/router, 1 mm diameter)
+G43 H1
+G00 Z0.0000
+X11.7093 Y6.1551
+Z-0.5000
+G02 X2.4030 Y36.5698 Z-1.0000 I13.7843 J20.8488 F199.98 S1000
+X29.7738 Y53.5522 I26.6559 J-12.4136 F1999.98
+G01 X29.7897 Y53.5520
+G02 X49.9046 Y46.3336 I0.2298 J-30.9952
+X52.9391 Y10.7555 I-15.4982 J-19.2404
+X11.7194 Y6.1482 I-23.2366 J21.1967
+G01 X11.7093 Y6.1551
+G00 Z0.0000
+M05 M30

@@ -58,7 +58,7 @@ int main(int argc, char *argv[]) {
 }
 // ================================================
 void init_bcm2835() {
-    printf("BISMILLAH. Program started. \n\n");
+     printf("BISMILLAH. Program started. \n\n");
 
     if (!bcm2835_init()){
         printf("bcm2835_init()  - Intitionlization failed. \n");
